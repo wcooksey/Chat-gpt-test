@@ -1,0 +1,41 @@
+body{
+
+form {
+    margin: 0 auto;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+#output {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    font-size: 18px;
+    text-align: justify;
+}
+
+
+}
+
