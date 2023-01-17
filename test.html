@@ -1,28 +1,27 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8" />
-    <title></title>
-    <link rel="stylesheet" href="test.css">
-</head>
-<body>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title></title>
+        <link rel="stylesheet" href="test.css">
+    </head>
+    <body>
 
-    <form>
-        <label>Height:</label>
-        <input type="text" id="height" required>
-        <br>
-        <label>Location:</label>
-        <input type="text" id="location" required>
-        <br>
-        <label>Interests:</label>
-        <input type="text" id="interests" required>
-        <br>
-        <button type="submit" onclick="generateProfile()">Generate Profile</button>
-    </form>
-    
-     <div id="output"></div>
-    <script src="test.js"></script>
-    <script type="text/javascript" src="test.js"></script>
-
-</body>
+        <form onsubmit="return false">
+            <label>Height:</label>
+            <input type="text" id="height" required>
+            <br>
+            <label>Location:</label>
+            <input type="text" id="location" required>
+            <br>
+            <label>Interests:</label>
+            <input type="text" id="interests" required>
+            <br>
+            <button type="submit" onclick="generateProfile()">Generate Profile</button>
+        </form>
+        
+        <div id="output"></div>
+        <script type="text/javascript" src="test.js"></script>
+    </body>
 </html>

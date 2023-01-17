@@ -1,17 +1,4 @@
-
-function generateProfile() {
-    let height = document.getElementById("height").value;
-    let location = document.getElementById("location").value;
-    let interests = document.getElementById("interests").value;
-
-    // Use the GPT-3 API to generate a custom dating profile based on the user's input
-    // ...
-
-    // Display the custom dating profile on the website
-    // ...
-}
-
-const API_KEY = "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";
+const API_KEY = "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";
 const API_URL = "https://api.openai.com/v1/engines/davinci-codex/completions";
 
 async function generateProfile() {
@@ -42,5 +29,4 @@ async function generateProfile() {
     // Display the generated dating profile to the user
     let output = document.getElementById("output");
     output.innerHTML = generatedText;
-
 }
